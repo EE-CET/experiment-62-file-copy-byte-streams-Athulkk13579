@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test File Copy Byte Streams",
+      "setup": "javac src/FileCopy.java",
+      "run": "java -cp src FileCopy",
+      "input": "",
+      "output": "File Copied\r?\nCopy this text.",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
